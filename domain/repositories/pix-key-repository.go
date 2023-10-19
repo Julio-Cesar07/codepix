@@ -1,7 +1,7 @@
 package repositories
 
 import (
-	"github/Julio-Cesar07/codepix/domain/model"
+	"github.com/Julio-Cesar07/codepix/domain/model"
 )	
 
 type PixKeyRepository interface {
@@ -10,4 +10,5 @@ type PixKeyRepository interface {
 	AddBank(bank *model.Bank) error
 	AddAccount(account *model.Account) error
 	FindAccount(account_id string) (*model.Account, error)
+	FindBank(bank_id string) (*model.Bank, error)
 }

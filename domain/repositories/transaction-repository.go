@@ -1,6 +1,6 @@
 package repositories
 
-import "github/Julio-Cesar07/codepix/domain/model"
+import "github.com/Julio-Cesar07/codepix/domain/model"
 
 type TransactionRepository interface {
 	Register(transaction *model.Transaction) error
